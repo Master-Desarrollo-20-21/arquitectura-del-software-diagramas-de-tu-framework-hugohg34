@@ -1,6 +1,6 @@
 @startuml
 
-title Punto de vista desde JAVA EE.
+title Punto de vista arquitectura JAVA EE.
 
 
 Package Controller{
@@ -8,10 +8,16 @@ class FacesServlet
 }
 
 Package Model{
-class  ManagedBean
-class pojo
-class dto
+class Service
+class  ManagedBean{
+ -@inject service
 }
+class Entity
+class Dao
+}
+ManagedBean --> Service
+Service --> Entity
+Service --> Dao
 
 Package View{
 class Facelets
