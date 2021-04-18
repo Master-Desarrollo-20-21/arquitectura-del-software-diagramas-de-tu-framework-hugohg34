@@ -1,0 +1,27 @@
+@startuml
+
+title Punto de vista desde JAVA EE.
+
+
+Package Controller{
+class FacesServlet
+}
+
+Package Model{
+class  ManagedBean
+class pojo
+class dto
+}
+
+Package View{
+class Facelets
+class JSFComponent
+class XHTML
+Facelets --> JSFComponent
+Facelets --> XHTML
+}
+
+Controller --> View
+Controller --> Model
+View --> Model
+@enduml
