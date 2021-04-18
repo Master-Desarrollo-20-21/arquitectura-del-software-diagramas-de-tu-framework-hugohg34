@@ -1,5 +1,17 @@
-# Diagrama de tu framework
+# JSF - JavaServer Faces
 
+JSF es el Framework para aplicaciones Java basadas en web, prepuesto como estándar dentro de la plataforma Jakarta EE.
+
+JSF simplifica el desarrollo de interfaces de usuario y propone una arquitectura MVC.
+
+Nació en marzo del 2004, el proyecto fue liderado por Craig MCClanahan, creador de Struts.
+
+## Diagrama de clases
+![diagrama arquitectura JSF](out/clases/clases.png)
+
+
+
+##Enunciado
 Esta práctica pertenece al [Curso de Arquitectura del Software](https://escuela.it/cursos/curso-arquitecturas-software-agiles-pesadas) de EscuelaIT. 
 
 La práctica consiste en diagramar el esquema del estilo arquitectónico que aplica cualquier framework que uses en tu día a día.
@@ -11,3 +23,4 @@ Si estás haciendo el curso con las clases en vivo puedes juntarte con otros est
 Los diagramas se debern realizar en PlantUML. <http://www.plantuml.com/>
 
 En el repositorio puedes subir el código que usas para producir los diagramas y las imágenes generadas por la herramienta.
+JavaServer Faces
