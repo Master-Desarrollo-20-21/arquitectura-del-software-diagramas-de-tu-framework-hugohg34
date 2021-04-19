@@ -11,13 +11,16 @@ Nació en marzo del 2004, el proyecto fue liderado por Craig MCClanahan, creador
 ## Diagrama de clases
 ![diagrama arquitectura JSF](img/1_Architecture.png)
 
+
 ## Punto de vista del desarrollador
 ![Punto de vista desarrollo](img/2_developer.png)
+
 
 ## Diagrama de secuencia
 ![Diagrama de secuencia](img/3_secuence.png)
 
-##Enunciado
+
+## Enunciado
 Esta práctica pertenece al [Curso de Arquitectura del Software](https://escuela.it/cursos/curso-arquitecturas-software-agiles-pesadas) de EscuelaIT. 
 
 La práctica consiste en diagramar el esquema del estilo arquitectónico que aplica cualquier framework que uses en tu día a día.
