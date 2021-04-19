@@ -2,27 +2,26 @@
 
 title Punto de vista arquitectura JAVA EE.
 
-
 Package Controller{
 class FacesServlet
 }
 
 Package Model{
-class Service
-class  ManagedBean{
- -@inject service
-}
-class Entity
-class Dao
+class  ManagedBean<<View>>
+class Service<<Controller, Inject>>
+class Entity<<Model>>
+class EJB<<View>>
+class Dao<<View>>
 }
 ManagedBean --> Service
 Service --> Entity
 Service --> Dao
+Service --> EJB
 
 Package View{
-class Facelets
-class JSFComponent
-class XHTML
+class Facelets<<Controller>>
+class JSFComponent<<Model>>
+class XHTML<<View>>
 Facelets --> JSFComponent
 Facelets --> XHTML
 }

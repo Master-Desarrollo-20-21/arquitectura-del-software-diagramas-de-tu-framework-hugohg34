@@ -1,0 +1,20 @@
+@startuml
+
+title Developer
+package Backend{
+class  ManagedBean <<View>>
+class Service <<Controller>>
+class Entity<<Model>>
+class Dao<<View>>
+}
+package Front{
+class XHTML<<View>>
+}
+ManagedBean --> Service
+Service --> Entity
+Service --> Dao
+XHTML --> ManagedBean
+ManagedBean --> Entity
+
+
+@enduml

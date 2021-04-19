@@ -1,0 +1,23 @@
+@startuml
+
+title "JSF - Sequence Diagram MVC"
+
+actor User
+boundary "Faces Servlet" as facesServlet
+entity "Facelets <<View>>" as Facelets
+entity "Managed Bean" as managedBean
+entity Service
+entity Entity
+database DB
+
+User -> facesServlet : HTTP request
+facesServlet -> managedBean : Injects and manages
+managedBean -> Service : get
+Service -> Entity: get
+Entity -> DB : get
+managedBean <- Service : set
+managedBean <-> Facelets : get / set
+facesServlet <-> Facelets : Manipulates and redirects
+facesServlet -> User: HTTP response
+
+@enduml

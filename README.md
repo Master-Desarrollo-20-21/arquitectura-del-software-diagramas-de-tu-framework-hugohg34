@@ -1,15 +1,21 @@
 # JSF - JavaServer Faces
 
-JSF es el Framework para aplicaciones Java basadas en web, prepuesto como estándar dentro de la plataforma Jakarta EE.
+JSF es un Framework para aplicaciones Java basadas en web, se formalizó como estándar dentro de la plataforma Jakarta EE.
 
-JSF simplifica el desarrollo de interfaces de usuario y propone una arquitectura MVC.
+También es una especificación de Java para crear interfaces de usuario basadas en componentes para aplicaciones web.
 
 Nació en marzo del 2004, el proyecto fue liderado por Craig MCClanahan, creador de Struts.
 
+
+
 ## Diagrama de clases
-![diagrama arquitectura JSF](out/clases/clases.png)
+![diagrama arquitectura JSF](img/1_Architecture.png)
 
+## Punto de vista del desarrollador
+![Punto de vista desarrollo](img/2_developer.png)
 
+## Diagrama de secuencia
+![Diagrama de secuencia](img/3_secuence.png)
 
 ##Enunciado
 Esta práctica pertenece al [Curso de Arquitectura del Software](https://escuela.it/cursos/curso-arquitecturas-software-agiles-pesadas) de EscuelaIT. 
